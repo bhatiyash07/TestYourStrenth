@@ -52,7 +52,6 @@ dependencies {    implementation(libs.androidx.core.ktx)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.google.android.material:material:1.12.0")
     implementation("com.google.firebase:firebase-auth:22.3.1")
-    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
     // Use double quotes for all string-based dependencies
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
