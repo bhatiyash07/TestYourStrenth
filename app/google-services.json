@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875103811696",
+    "project_id": "testyourstrenth",
+    "storage_bucket": "testyourstrenth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875103811696:android:01eeb0e4002461ce411cb5",
+        "android_client_info": {
+          "package_name": "com.example.testyourstrenth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU8Muqf5t3MWx7H0GFKuETDm6cRGWinsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/gradient_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:text="Your Score"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+             android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:progressTint="@android:color/holo_green_light"
+            android:progressBackgroundTint="@android:color/white"
+            android:max="100"
+            android:layout_marginBottom="24dp" />
+
+
+        <TextView
+            android:id="@+id/analysisText"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/retryBtn"
+            android:text="🔁 Try Again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/homeBtn"
+            android:text="🏠 Go to Home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_500" />
+    </LinearLayout>
+</ScrollView>
+
